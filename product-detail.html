@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta meta name=" viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <title>Individuell-Uppgift (Work in progress)</title>
+
+    <!-- FAVICONS -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/Favicon/site.webmanifest">
+
+    <!-- FAVICONS END -->
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- FONTS END -->
+
+    <!-- navbar component -->
+
+    <script src="./components/header.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+
+    <!-- navbar component ends -->
+</head>
+
+<body>
+
+    <!-- Navbar starts -->
+
+    <header>
+
+        <div class="main-image-wrapper">
+            <img id="main-img" src="./assets/images/main-img.jpg" alt="main image" loading="lazy">
+            <div class="main-img-text-wrapper">
+                <p class="main-img-text">HIKING&STUFF</p>
+            </div>
+        </div>
+
+        <header-component></header-component>
+
+    </header>
+
+    <!-- Navbar ends -->
+    <main>
+
+        <section id="product-details-page">
+            <section class="details">
+
+                <div id="details-wrapper">
+
+                    <h1>NORTH 8 Waterproof Hiking Boots </h1>
+                    <p class="category">Category - Hiking Boots</p>
+
+                    <p class="short-description">Perfect for Outdoors: Designed for both daily work and outdoor
+                        activities like hiking, hunting,
+                        camping, climbing, cycling, fishing, running, backpacking, trekking, mountaineering, traveling,
+                        and so on.</p>
+                    <p class="price">$65.99</p>
+
+                    <div class="rating-stars">
+                        <img class="rating" src="./assets/images/icons/star.png" alt="star" loading="lazy"><img
+                            class="rating" src="./assets/images/icons/star.png" alt="star" loading="lazy"><img
+                            class="rating" src="./assets/images/icons/star.png" alt="star" loading="lazy"><img
+                            class="rating" src="./assets/images/icons/star.png" alt="star" loading="lazy"><img
+                            class="rating" src="./assets/images/icons/star.png" alt="star" loading="lazy">
+                    </div>
+
+
+
+                    <button id="more-info-btn" onclick="myFunction2()">Show more details</button>
+                    <button id="more-info-btn">Add to cart</button>
+
+
+                    <div id="myDIV">
+                        <ul>
+                            <li>
+                                <p>
+                                    Waterproof & protection: Hiking boots features waterproof suede leather and
+                                    waterproof membrane construction that keeps your feet cool and dry.
+                                </p>
+
+                            </li>
+                            <li>
+                                <p>
+                                    The rubber toe cap
+                                    and the reinforced heel are designed for anti-collisiostrenghthening the stability
+                                    of
+                                    the shoes which gives your ankle more protection.
+                                </p>
+
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!--  <div id="add_to_me">
+                        <h1></h1>
+                        <p>
+
+
+                        </p>
+                    </div>
+
+                    <button onclick="addCode()">More product info</button> -->
+
+                </div>
+
+                <div id="product-images-detail-page">
+                    <img class="product-detail-img" src="./assets/images/products/boots4.jpg" alt="product image"
+                        class="product-detail-image" loading="lazy">
+                    <img class="product-detail-img" src="./assets/images/products/boots2.jpg" alt="product image"
+                        class="product-detail-image" loading="lazy">
+                    <img class="product-detail-img" src="./assets/images/products/boots3.jpg" alt="product image"
+                        class="product-detail-image" loading="lazy">
+                    <img class="product-detail-img" src="./assets/images/products/boots1.jpg" alt="product image"
+                        class="product-detail-image" loading="lazy">
+                </div>
+
+
+            </section>
+
+
+        </section>
+
+    </main>
+
+    <footer-component></footer-component>
+
+    <!-- <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-right">
+                <h3>Footer header</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+            </div>
+        </div>
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>

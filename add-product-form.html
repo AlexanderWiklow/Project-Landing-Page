@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta meta name=" viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <title>HIKINGSTUFF(Work in progress)</title>
+
+    <!-- FAVICONS -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/Favicon/site.webmanifest">
+
+    <!-- FAVICONS END -->
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- FONTS END -->
+
+    <!-- navbar component -->
+
+    <script src="./components/header.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+
+    <!-- navbar component ends -->
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- <h1>WORK IN PROGRESS</h1> -->
+        <div class="main-image-wrapper">
+            <img id="main-img" src="./assets/images/backgrounds/mountain1.jpg" alt="main image" loading="lazy">
+            <!-- <div class="bottom-left">Bottom Left</div> -->
+            <div class="main-img-text-wrapper">
+                <p class="main-img-text">HIKING&STUFF</p>
+            </div>
+        </div>
+
+        <!-- Navbar starts -->
+
+        <header-component></header-component>
+
+        <!-- Navbar ends -->
+
+    </header>
+
+
+    <main>
+
+        <!-- ====== Add product form page start ======= -->
+
+
+        <section id="add-product-section">
+
+            <section class="section-add-product">
+
+
+                <h2 class="title-text-1">Add products!</h2>
+                <form action="">
+
+
+                    <label for="product-name">Product name:</label>
+                    <br>
+                    <input type="text" name="product-name" id="product-name" placeholder="Product name">
+                    </br>
+
+                    <label for="product-description">Product description:</label>
+                    </br>
+                    <textarea name="product-description" id="product-description" cols="30" rows="5"
+                        placeholder="Write something.."></textarea>
+
+                    </br>
+
+                    <label for="images">Upload product-images</label>
+
+                    <br>
+
+                    <input type="file" id="myFile" name="filename">
+
+                    <br>
+                    <input type="file" id="myFile" name="filename">
+
+                    <br>
+                    <input type="file" id="myFile" name="filename">
+                    <br>
+                    <input type="file" id="myFile" name="filename">
+                    <br>
+
+                    <label for="category">Product category</label>
+                    <br>
+                    <select name="category" id="category">
+                        <option value="category1">Backpacks</option>
+                        <option value="category2">Clothing</option>
+                        <option value="category3">Shoes</option>
+                        <option value="category4">Tents</option>
+                    </select>
+                    </br>
+                    <input id="add-products-btn" type="submit" value="Submit">
+                </form>
+
+            </section>
+
+        </section>
+
+        <!-- ====== Add product form page end ======= -->
+
+
+
+    </main>
+
+    <footer-component></footer-component>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

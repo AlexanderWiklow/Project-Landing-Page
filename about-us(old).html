@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <title>HIKINGSTUFF(Work in progress)</title>
+
+    <!-- FAVICONS -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/Favicon/site.webmanifest">
+
+    <!-- FAVICONS END -->
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- FONTS END -->
+
+    <!-- navbar component -->
+
+    <script src="./components/header.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+
+    <!-- navbar component ends -->
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- <h1>WORK IN PROGRESS</h1> -->
+        <div class="main-image-wrapper">
+            <img id="main-img" src="./assets/images/backgrounds/mountain2.jpg" alt="main image">
+            <!-- <div class="bottom-left">Bottom Left</div> -->
+            <div class="main-img-text-wrapper">
+                <p class="main-img-text">HIKING&STUFF</p>
+            </div>
+        </div>
+
+        <header-component></header-component>
+
+
+    </header>
+
+
+    <main>
+
+        <!-- ====== About us section start ====== -->
+
+        <section id="about-us-section">
+
+
+            <section class="about-us">
+
+                <h2>Meet the team!</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet
+                    consectetur
+                    adipisicing elit. At autem!</p>
+
+
+
+                <div id="VD-info">
+
+
+                    <img id="boss-pic" src="./assets/images/employees/vd.jpg" alt="">
+
+                    <div id="VD-text">
+                        <h4>CEO</h4>
+
+                        <p>Lorem, ipsum.</p>
+
+                        <p>Phone number:<a href="tel:+4733378901">+47 333 78 901</a></p>
+                        <p>Email: <a href="mailto:someone@example.com">Send email</a></p>
+
+                    </div>
+
+
+                </div>
+
+                <div id="employees-wrapper">
+
+                    <img class="employees-pic" src="./assets/images/employees/dog1.jpg" alt="dog">
+                    <img class="employees-pic-middle" src="./assets/images/employees/employees.jpg" alt="">
+                    <img class="employees-pic" src="./assets/images/employees/dog2.jpg" alt="dog">
+
+                </div>
+
+
+
+                <div id="form-container">
+
+                    <fieldset>
+
+
+
+                        <form name="contact-form" id="contact-form" action="">
+                            <h2>Contact us!</h2>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="fname" placeholder="Name">
+                            </br>
+
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Email">
+                            </br>
+
+                            <label for="message">Message:</label>
+                            </br>
+                            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+
+                            </br>
+
+                            <input id="form-submit-btn" type="submit" value="Send">
+                        </form>
+
+                        <div id="thank_you" style="display: none;">
+                            <p>Thank you! We will reach back to you shortly</p>
+                        </div>
+
+                    </fieldset>
+
+
+                </div>
+
+
+            </section>
+            <!-- ====== About us section end ====== -->
+
+    </main>
+
+    <footer-component></footer-component>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
