@@ -172,6 +172,29 @@ section {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.section-add-product form {
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#add-products-btn {
+  background-color: rgba(181, 174, 174, 0.2352941176);
+  margin-top: 1rem;
+  padding: 0.2rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#add-products-btn:hover {
+  background-color: rgb(155, 154, 154);
+}
+
 #add-product-section {
   min-height: 50rem;
 }

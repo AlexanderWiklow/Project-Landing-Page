@@ -197,6 +197,32 @@ section {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+
+.section-add-product form {
+  font-size: 1.5rem;
+      background-color: rgba(0,0,0,.5);
+    color: #fff;
+  padding: 1rem;
+  border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#add-products-btn {
+  background-color: #b5aeae3c;
+  // width: 100%;
+  // margin: 1rem;
+  margin-top: 1rem;
+  padding: 0.2rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#add-products-btn:hover {
+  background-color: rgb(155, 154, 154);
+}
+
 #product-list-section {
   // height: -webkit-fit-content;
   // height: -moz-fit-content;
