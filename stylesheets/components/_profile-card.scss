@@ -1,0 +1,32 @@
+
+#employees-wrapper {
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.employees-pic-middle {
+  width: 100%;
+}
+
+.employees-pic {
+  width: 50%;
+}
+
+
+#boss-pic {
+  height: 15rem;
+  width: auto;
+  right: 0;
+  border-radius: 15px;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+#VD-info {
+  display: flex;
+  align-items: center;
+}
+
+#VD-text {
+  padding-left: 1rem;
+}

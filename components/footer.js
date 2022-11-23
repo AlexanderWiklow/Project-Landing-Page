@@ -6,15 +6,15 @@ footerTemplate.innerHTML = `
             <div class="social-media-icons">
 
                 <a href="https://www.facebook.com/" target="_blank">
-                    <img class="social-media-icons-footer" src="./assets/images/icons/icon1.png" alt="">
+                    <img class="social-media-icons-footer" src="../assets/images/icons/icon1.png" alt="">
                 </a>
 
                 <a href="https://www.instagram.com/" target="_blank">
-                    <img class="social-media-icons-footer" src="./assets/images/icons/icon2.png" alt="">
+                    <img class="social-media-icons-footer" src="../assets/images/icons/icon2.png" alt="">
                 </a>
 
                 <a class="social-media-links" href="https://www.youtube.com/" target="_blank">
-                    <img class="social-media-icons-footer" src="./assets/images/icons/icon3.png" alt="">
+                    <img class="social-media-icons-footer" src="../assets/images/icons/icon3.png" alt="">
                 </a>
             </div>
 

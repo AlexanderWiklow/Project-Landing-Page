@@ -1,10 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik+Distressed&display=swap");
 * {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  --color-primary: #3d3a9a;
-  --color-secondary: #f3f85d;
 }
 
 html {
@@ -19,46 +18,8 @@ body {
   margin: 0 auto;
   height: 100%;
   font-family: "Roboto", sans-serif;
-  background: url(../../assets/images/backgrounds/background.jpg) no-repeat center center fixed;
+  background: url(../../assets/images/backgrounds/mountain4.jpg) no-repeat center center fixed;
   background-size: cover;
-  /*   background-size: 300%; */
-  /* Center and scale the image nicely */
-  /* DARK MODE */
-  /* DARK MODE END */
-}
-
-.dark-mode {
-  background-color: black;
-}
-
-#dark-mode-btn {
-  background-color: #272727;
-  color: rgba(255, 255, 255, 0.655);
-}
-
-#main-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 3rem;
-  background-color: #e7e4e4;
-  opacity: 60%;
-  margin-top: -5px;
-}
-
-nav a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-nav a:hover {
-  color: rgb(92, 91, 91);
-}
-
-#logo-name {
-  color: #272727;
-  font-weight: bold;
 }
 
 main {
@@ -94,66 +55,12 @@ main {
 }
 
 /* ===== TEST CARDS ====== */
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
 /* Add some padding inside the card container */
 .container {
   padding: 0.8rem;
 }
 
-.card {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  margin-top: 2rem;
-  width: 15rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  border-radius: 15px; /* 5px rounded corners */
-  transition: all 0.3s ease-in-out;
-  gap: 1rem;
-}
-
-.card:hover {
-  transform: scale(1.05);
-}
-
-/* Add rounded corners to the top left and the top right corner of the image */
-img {
-  -o-object-fit: cover;
-  object-fit: cover;
-  height: 15rem;
-  width: 100%;
-}
-
-.card-inner-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem 0rem 0.5rem 0rem;
-}
-
 /* ===== TEST CARDS ====== */
-.product-card {
-  height: 20rem;
-  width: 15rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  border-radius: 1rem 1rem 1rem 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease-in-out;
-  gap: 1rem;
-}
-
-.product-card:hover {
-  transform: scale(1.05);
-}
-
 section {
   padding: 1rem;
   margin-bottom: 5rem;
@@ -355,13 +262,17 @@ fieldset {
 }
 
 #add-products-btn {
-  background-color: #b5aeae;
-  width: 100%;
+  background-color: rgba(181, 174, 174, 0.2352941176);
+  margin-top: 1rem;
   padding: 0.2rem;
   border-radius: 10px;
   color: white;
   font-size: 1rem;
   font-weight: bold;
+}
+
+#add-products-btn:hover {
+  background-color: rgb(155, 154, 154);
 }
 
 #about-us-section {
@@ -424,19 +335,20 @@ fieldset {
 
 /* === DROPDOWN MENU ==== */
 .dropbtn {
-  color: rgb(0, 0, 0);
-  opacity: 50%;
+  color: rgb(255, 255, 255);
   padding: 16px;
   font-size: 20px;
   border: none;
   cursor: pointer;
   border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.182);
+  padding-right: 0.5rem;
 }
 
 .product-link-btn {
   padding: 16px;
   font-size: 20px;
-  opacity: 50%;
+  background-color: rgba(255, 255, 255, 0.182);
   border: none;
   cursor: pointer;
   border-radius: 15px;
@@ -446,7 +358,7 @@ fieldset {
 .product-link-btn a {
   text-decoration: none;
   list-style: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .dropbtn:hover, .dropbtn:focus, .product-link-btn:hover, .product-link-btn:focus {
@@ -543,7 +455,6 @@ fieldset {
 
 .test-text {
   width: 100%;
-  opacity: 50%;
 }
 
 .section-test {
@@ -578,7 +489,7 @@ fieldset {
 
 .contact-icons a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .contact-card-icon {
@@ -586,6 +497,7 @@ fieldset {
   width: 1.5rem;
   margin-right: 0.5rem;
   margin-left: 0;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 
 input, select, textarea {
@@ -646,4 +558,63 @@ input, select, textarea {
   .test-card {
     margin: 0rem 0rem 1rem 0rem;
   }
+}
+/* $body-font-family: 'Open Sans', sans-serif;
+$base-font-size: 18px;
+$base-font-weight: 400; */
+#main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  background-color: grey;
+  opacity: 60%;
+  margin-top: -5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+nav a:hover {
+  color: rgb(92, 91, 91);
+}
+
+#logo-name {
+  color: #272727;
+  font-weight: bold;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin-top: 2rem;
+  width: 15rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 15px; /* 5px rounded corners */
+  transition: all 0.3s ease-in-out;
+  gap: 1rem;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 15rem;
+  width: 100%;
+}
+
+.card-inner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0rem 0.5rem 0rem;
 }/*# sourceMappingURL=styles.css.map */
