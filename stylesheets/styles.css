@@ -89,38 +89,6 @@ section {
   flex-direction: column;
 }
 
-#contact-form {
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  padding: 1rem;
-}
-
-#form-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-#form-submit-btn {
-  background-color: #272727;
-  color: white;
-  width: 100%;
-}
-
-fieldset {
-  background-color: rgba(66, 138, 66, 0.265);
-}
-
-#thank_you {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  background-color: white;
-}
-
 .section-inner.about-us {
   display: flex;
   flex-direction: row;
@@ -143,20 +111,6 @@ fieldset {
   align-items: center;
   justify-content: space-between;
   padding-top: 0.5rem;
-}
-
-#employees-wrapper {
-  display: flex;
-  border-radius: 15px;
-  overflow: hidden;
-}
-
-.employees-pic-middle {
-  width: 100%;
-}
-
-.employees-pic {
-  width: 50%;
 }
 
 .details {
@@ -218,23 +172,6 @@ fieldset {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-#boss-pic {
-  height: 15rem;
-  width: auto;
-  right: 0;
-  border-radius: 15px;
-  margin: 1rem 0rem 1rem 0rem;
-}
-
-#VD-info {
-  display: flex;
-  align-items: center;
-}
-
-#VD-text {
-  padding-left: 1rem;
-}
-
 #add-product-section {
   min-height: 50rem;
 }
@@ -252,29 +189,6 @@ fieldset {
   background-color: transparent;
 }
 
-.section-add-product form {
-  font-size: 1.5rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  padding: 1rem;
-  border-radius: 15px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-
-#add-products-btn {
-  background-color: rgba(181, 174, 174, 0.2352941176);
-  margin-top: 1rem;
-  padding: 0.2rem;
-  border-radius: 10px;
-  color: white;
-  font-size: 1rem;
-  font-weight: bold;
-}
-
-#add-products-btn:hover {
-  background-color: rgb(155, 154, 154);
-}
-
 #about-us-section {
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -290,47 +204,6 @@ fieldset {
   justify-content: center;
   margin: auto;
   padding: 3rem;
-}
-
-#footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 5rem;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
-
-.social-media-icons {
-  margin-bottom: 1rem;
-}
-
-.social-media-icons a {
-  list-style: none;
-  text-decoration: none;
-}
-
-.social-media-icons-footer {
-  height: 3rem;
-  width: 3rem;
-  margin-right: 1rem;
-}
-
-.footer-links {
-  list-style: none;
-  text-decoration: none;
-  color: white;
-  margin: 1rem;
-  font-size: 1.3rem;
-}
-
-.footer-links.active {
-  font-weight: bold;
-}
-
-.social-media-icons-footer:hover {
-  filter: invert(31%) sepia(0%) saturate(2612%) hue-rotate(165deg) brightness(95%) contrast(72%);
 }
 
 /* === DROPDOWN MENU ==== */
@@ -587,6 +460,78 @@ nav a:hover {
   font-weight: bold;
 }
 
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.social-media-icons {
+  margin-bottom: 1rem;
+}
+
+.social-media-icons a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.social-media-icons-footer {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.footer-links {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+.footer-links.active {
+  font-weight: bold;
+}
+
+.social-media-icons-footer:hover {
+  filter: invert(31%) sepia(0%) saturate(2612%) hue-rotate(165deg) brightness(95%) contrast(72%);
+}
+
+#employees-wrapper {
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.employees-pic-middle {
+  width: 100%;
+}
+
+.employees-pic {
+  width: 50%;
+}
+
+#boss-pic {
+  height: 15rem;
+  width: auto;
+  right: 0;
+  border-radius: 15px;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+#VD-info {
+  display: flex;
+  align-items: center;
+}
+
+#VD-text {
+  padding-left: 1rem;
+}
+
 .card {
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -617,4 +562,32 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+#contact-form {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 1rem;
+}
+
+#form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+#form-submit-btn {
+  background-color: #272727;
+  color: white;
+  width: 100%;
+}
+
+#thank_you {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: white;
 }/*# sourceMappingURL=styles.css.map */
