@@ -20,9 +20,9 @@ footerTemplate.innerHTML = `
 
             <div class="footer-links">
                 <a class="footer-links" id="name" href="./index.html" class="active">HIKING&STUFF</a>
-                <a class="footer-links" href="./product-list-page.html">Products</a>
-                <a class="footer-links" href="./add-product-form.html">Add product</a>
-                <a class="footer-links" href="./about-us.html">About us</a>
+                <a class="footer-links" href="../docs/product-list-page.html">Products</a>
+                <a class="footer-links" href="../docs/add-product-form.html">Add product</a>
+                <a class="footer-links" href="../docs/about-us.html">About us</a>
             </div>
         </div>
     </footer>`
