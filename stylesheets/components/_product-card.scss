@@ -29,3 +29,33 @@ img {
   justify-content: space-between;
   padding: 0.5rem 0rem 0.5rem 0rem;
 }
+
+.card img {
+  border-radius: 15px 15px 0px 0px;
+}
+
+
+.product-card-text {
+  padding: 1rem;
+}
+
+.product-title {
+  padding-bottom: 0.5rem;
+}
+
+.bottom-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.product-detail-image:hover {
+  transform: scale(1.2);
+}
+
+#more-info-btn {
+  background-color: #d5d5d5;
+  padding: 0.5rem;
+  border-radius: 10px;
+}

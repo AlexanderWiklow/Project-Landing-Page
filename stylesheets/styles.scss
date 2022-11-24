@@ -27,6 +27,7 @@
 @import "components/profile-card";
 @import "components/product-card";
 @import "components/contact-form";
+@import "components/dropdown-index-page";
 
 // Pages
 // @import "docs/product";
@@ -36,6 +37,9 @@
 // @import "docs/invoice";
 // @import "docs/login";
 // @import "docs/signup";
+@import "pages/add-product-page";
+@import "pages/about-us-page";
+@import "pages/product-detail-page";
 
 // Themes
 @import "themes/dark-theme";
