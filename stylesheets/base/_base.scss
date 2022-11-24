@@ -1,3 +1,6 @@
+@use './typography' as font;
+@use '../abstracts/colors' as color;
+
 * {
 	margin: 0 auto;
 	padding: 0;
@@ -14,10 +17,10 @@ body {
 	min-width: 300px;
 	margin: 0 auto;
 	height: 100%;
-	font-family: $body-font-family;
+	font-family: font.$body-font-family;
 	background: url(../assets/images/backgrounds/mountain4.jpg) no-repeat center center fixed;
 	background-size: cover;
-	overflow-x: hidden;
+	overflow: auto;
 }
 main {
 	height: -webkit-fit-content;
@@ -39,11 +42,11 @@ main {
 	transform: translate(-50%, -50%);
 }
 .main-img-text {
-	color: white;
+	color:color.$primary-font-color;
 	font-size: 5vw;
-	font-family: $hero-font-family;
+	font-family: font.$hero-font-family;
 	letter-spacing: 0.6rem;
-	overflow-wrap: break-word;
+	// overflow-wrap: break-word;
 }
 .container {
 	padding: 0.8rem;

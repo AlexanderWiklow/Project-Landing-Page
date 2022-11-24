@@ -1,6 +1,10 @@
+@use '../abstracts/colors' as color;
+
+
 /* === DROPDOWN MENU ==== */
+
 .dropbtn {
-	color: rgb(255, 255, 255);
+	color:color.$primary-font-color;
 	// opacity: 50%;
 	padding: 5px;
 	font-size: 1rem;
@@ -10,10 +14,12 @@
 	background-color: rgba(255, 255, 255, 0.182);
 	// padding-right: 0.5rem;
 	&:hover {
-		background-color: #e7e4e4;
+		background-color: color.$primary-font-color;
+		color: black;
 	}
 	&:focus {
-		background-color: #e7e4e4;
+		background-color: color.$primary-font-color;
+		color: black;
 	}
 }
 .product-link-btn {

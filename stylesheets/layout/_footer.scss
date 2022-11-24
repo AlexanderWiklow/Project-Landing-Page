@@ -27,14 +27,42 @@
 .footer-links {
 	list-style: none;
 	text-decoration: none;
-	color: white;
+	color: rgb(212, 212, 212);
 	margin: 1rem;
-	font-size: 1.3rem;
+	margin-top: -0.3rem;
+	// font-size: 1.3rem;
 	&:hover {
-		// color: rgb(92, 91, 91);
+		color: rgb(92, 91, 91);
 	}
+	// @include for-phone-only {
+	// 	// display: flex;
+	// 	background-color: red;
+	// }
+
+	@media only screen and (max-width: 800px) {
+			display: flex;
+			flex-direction: column;
+	}
+	// a {
+	// 	color: white;
+	// 	text-decoration: none;
+	// 	font-size: 3vw;
+	// }
 }
+
 .footer-links.active {
 	font-weight: bold;
 	// color: rgb(92, 91, 91);
 }
+
+// @mixin for-phone-only {
+//   @media (max-width: 800px) {
+// 	 @content; 
+// 	}
+// }
+
+// @mixin responsive-footer {
+// 		@media only screen and (max-width: 800px) {
+// 			@content;
+// 	}
+// }
