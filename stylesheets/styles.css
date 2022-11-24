@@ -83,33 +83,6 @@ section {
   gap: 2rem;
 }
 
-/* KEYFRAMES */
-.animate.pop {
-  -webkit-animation: animate-pop 0.2s cubic-bezier(0.26, 0.53, 0.74, 1.48);
-          animation: animate-pop 0.2s cubic-bezier(0.26, 0.53, 0.74, 1.48);
-}
-
-@-webkit-keyframes animate-pop {
-  0% {
-    opacity: 0;
-    transform: scale(0.5, 0.5);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1, 1);
-  }
-}
-
-@keyframes animate-pop {
-  0% {
-    opacity: 0;
-    transform: scale(0.5, 0.5);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1, 1);
-  }
-}
 /* $body-font-family: 'Open Sans', sans-serif;
 $base-font-size: 18px;
 $base-font-weight: 400; */
@@ -179,6 +152,33 @@ nav a:hover {
   filter: invert(31%) sepia(0%) saturate(2612%) hue-rotate(165deg) brightness(95%) contrast(72%);
 }
 
+/* KEYFRAMES */
+.animate.pop {
+  -webkit-animation: animate-pop 0.2s cubic-bezier(0.26, 0.53, 0.74, 1.48);
+          animation: animate-pop 0.2s cubic-bezier(0.26, 0.53, 0.74, 1.48);
+}
+
+@-webkit-keyframes animate-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes animate-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
 #employees-wrapper {
   display: flex;
   border-radius: 15px;
@@ -302,19 +302,21 @@ img {
 /* === DROPDOWN MENU ==== */
 .dropbtn {
   color: rgb(255, 255, 255);
+  padding: 5px;
   font-size: 1rem;
   border: none;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.182);
 }
 
 .product-link-btn {
+  padding: 5px;
   font-size: 1rem;
   background-color: rgba(255, 255, 255, 0.182);
   border: none;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 5px;
   margin-right: 0.5rem;
 }
 
