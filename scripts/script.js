@@ -17,7 +17,7 @@ window.onclick = function (event) {
 
 /* ========= DROPDOWN MENU ENDS ======== */
 
-/* ====== HIDE FORM AND DISPLAY MESSAGE =====  */
+/* ====== CONTACT FORM =====  */
 
 document.forms['contact-form'].addEventListener('submit', function (event) {
     // Do something with the form's data here
