@@ -1,12 +1,6 @@
-
 /* KEYFRAMES */
 
-
 .animate.pop {
-  // animation-name: animate-pop;
-  // animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
-  // animation-duration: 0.2s;
-  // @include animate-pop('')
   animation: animate-pop 0.2s cubic-bezier(0.26, 0.53, 0.74, 1.48);
 }
 
@@ -21,7 +15,6 @@
     transform: scale(1, 1);
   }
 }
-
 
 @mixin animation-mixin($name, $from, $to) {
   @keyframes #{$name} {

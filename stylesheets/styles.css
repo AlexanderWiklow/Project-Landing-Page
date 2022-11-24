@@ -39,7 +39,6 @@ main {
   max-width: 100%;
 }
 
-/* Centered text */
 .main-img-text-wrapper {
   position: absolute;
   top: 50%;
@@ -55,8 +54,6 @@ main {
   overflow-wrap: break-word;
 }
 
-/* ===== TEST CARDS ====== */
-/* Add some padding inside the card container */
 .container {
   padding: 0.8rem;
 }
@@ -75,7 +72,6 @@ section {
   height: 100%;
 }
 
-/* ===== TOGGLE MORE INFO END ======= */
 #menu-wrapper {
   display: flex;
   align-items: center;
@@ -289,17 +285,6 @@ img {
   background-color: #272727;
   color: white;
   width: 100%;
-}
-
-#thank_you {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  padding: 1rem;
-  border-radius: 15px;
 }
 
 /* === DROPDOWN MENU ==== */
@@ -528,7 +513,7 @@ input, select, textarea {
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   padding: 1rem;
   border-radius: 15px;
