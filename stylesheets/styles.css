@@ -318,7 +318,7 @@ img {
   border: none;
   cursor: pointer;
   border-radius: 15px;
-  margin: 0;
+  margin-right: 0.5rem;
 }
 
 .product-link-btn a {
