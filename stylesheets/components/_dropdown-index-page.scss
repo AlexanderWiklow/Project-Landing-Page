@@ -43,7 +43,10 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: white;
+		background-color: rgba(0, 0, 0, 0.839);
+		color: #fff;
+		padding: 1rem;
+		border-radius: 15px;
   text-align: left;
   font-size: 1rem;
   min-width: 20rem;
@@ -52,8 +55,8 @@
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  color: black;
-  border: 5px solid grey;
+//   color: black;
+  border: 15px solid rgb(0, 0, 0);
 
 }
 

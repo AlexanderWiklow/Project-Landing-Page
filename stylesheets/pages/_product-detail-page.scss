@@ -13,6 +13,11 @@
 #details-wrapper {
   width: 50%;
   margin-right: 1rem;
+        background-color: rgba(0,0,0,.5);
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 15px;
 }
 
 #details-wrapper p {
@@ -45,6 +50,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+//   margin-top: -52px;
 }
 
 .product-detail-img:first-child {
