@@ -49,7 +49,7 @@ main {
 
 .main-img-text {
   color: white;
-  font-size: 6vw;
+  font-size: 5vw;
   font-family: "Rubik Distressed", cursive;
   letter-spacing: 0.6rem;
   overflow-wrap: break-word;
@@ -99,7 +99,7 @@ $base-font-weight: 400; */
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 3vw;
 }
 
 nav a:hover {
