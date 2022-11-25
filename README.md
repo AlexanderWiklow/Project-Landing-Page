@@ -30,8 +30,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/AlexanderWiklow/Project-Landing-Page)
-- Live Site URL: [Add live site URL here](https://alexanderwiklow.github.io/Project-Landing-Page/product-list-page.html)
+- Solution URL: [Visit my GitHub](https://github.com/AlexanderWiklow/Project-Landing-Page)
+- Live Site URL: [Visit this live project](https://alexanderwiklow.github.io/Project-Landing-Page/product-list-page.html)
+
 
 ## My process
 
