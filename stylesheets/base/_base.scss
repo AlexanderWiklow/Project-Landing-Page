@@ -5,12 +5,10 @@
 	margin: 0 auto;
 	padding: 0;
 	box-sizing: border-box;
-	// font-family: $body-font-family;
 }
 html {
 	width: 100vw;
 	height: 100%;
-	// margin: 0 auto;
 }
 body {
 	max-width: 2040px;
@@ -46,7 +44,6 @@ main {
 	font-size: 5vw;
 	font-family: font.$hero-font-family;
 	letter-spacing: 0.6rem;
-	// overflow-wrap: break-word;
 }
 .container {
 	padding: 0.8rem;

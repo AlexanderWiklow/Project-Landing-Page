@@ -1,16 +1,18 @@
+@use '../abstracts/colors' as color;
+
 .card {
-	background-color: rgba(0,0,0,.5);
-	color: #fff;
+	background-color: color.$card-background-color;
+	color: color.$primary-font-color;
 	margin-top: 2rem;
 	width: 15rem;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 8px 0 color.$dropdown-box-shadow;
 	transition: 0.3s;
 	border-radius: 15px;
 	transition: all 0.3s ease-in-out;
 	gap: 1rem;
 	&:hover {
 		transform: scale(1.05);
-		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 0 8px 16px 0 color.$dropdown-box-shadow;
 	}
 	img {
 		border-radius: 15px 15px 0px 0px;
@@ -46,7 +48,7 @@ img {
 	}
 }
 #more-info-btn {
-	background-color: #d5d5d5;
+	background-color: $light-background-color;
 	padding: 0.5rem;
 	border-radius: 10px;
 }
