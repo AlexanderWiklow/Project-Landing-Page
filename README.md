@@ -1,12 +1,14 @@
+
+
 # Hiking Landing Page
 
+![](./assets/images/screenshots/Screenshot%20from%202022-11-25%2016-08-12.png)
 ## Table of contents
 
 - [Hiking Landing Page](#hiking-landing-page)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -22,11 +24,6 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
-
-### Screenshot
-
-![](./assets/images/screenshots/Screenshot%20from%202022-11-25%2016-08-12.png)
-
 
 ### Links
 
