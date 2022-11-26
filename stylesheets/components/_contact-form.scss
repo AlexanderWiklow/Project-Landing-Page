@@ -1,19 +1,19 @@
-@use '../abstracts/colors' as color;
+@use "../abstracts/colors" as color;
 
 #contact-form {
-	max-width: -webkit-fit-content;
-	max-width: -moz-fit-content;
-	max-width: fit-content;
-	padding: 1rem;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 1rem;
 }
 #form-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
 }
 #form-submit-btn {
-	background-color: color.$submit-btn-color;
-	color:color.$primary-font-color;
-	width: 100%;
+  background-color: color.$submit-btn-color;
+  color: color.$primary-font-color;
+  width: 100%;
 }

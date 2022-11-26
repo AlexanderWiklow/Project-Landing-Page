@@ -1,37 +1,36 @@
-@use '../abstracts/colors' as color;
+@use "../abstracts/colors" as color;
+@use "../abstracts/mixins" as m;
+
+@include animation-mixin(animate-pop, 0, 100%);
 
 #add-product-section {
-	min-height: 50rem;
-	.section-add-product {
-		form {
-			font-size: 1.5rem;
-			background-color: color.$card-background-color;
-			color:color.$primary-font-color;
-			padding: 1rem;
-			border-radius: 15px;
-			box-shadow: 0 0 20px $dropdown-box-shadow;
-		}
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		background-color: transparent;
-		#add-products-btn {
-			background-color: color.$add-product-button;
-			// width: 100%;
-			// margin: 1rem;
-			margin-top: 1rem;
-			padding: 0.2rem;
-			border-radius: 10px;
-			color:color.$primary-font-color;
-			font-size: 1rem;
-			font-weight: bold;
-			&:hover {
-				background-color: $product-btn-hover-btn;
-			}
-		}	
-	}
+  min-height: 50rem;
+  .section-add-product {
+    form {
+      animation: animate-pop 0.2s ease-out;
+      font-size: 1.5rem;
+      background-color: color.$card-background-color;
+      color: color.$primary-font-color;
+      padding: 1rem;
+      border-radius: 15px;
+      box-shadow: 0 0 20px $dropdown-box-shadow;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    #add-products-btn {
+      background-color: color.$add-product-button;
+      margin-top: 1rem;
+      padding: 0.2rem;
+      border-radius: 10px;
+      color: color.$primary-font-color;
+      font-size: 1rem;
+      font-weight: bold;
+      &:hover {
+        background-color: $product-btn-hover-btn;
+      }
+    }
+  }
 }
-
-
-

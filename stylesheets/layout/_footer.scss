@@ -1,68 +1,46 @@
+@use "../abstracts/colors" as color;
+@use "../abstracts/mixins" as m;
+
 #footer {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 5rem;
-	color: white;
-	padding: 1rem;
-	text-align: center;
-	// background-color: black;
-	// opacity: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  color: color.$primary-font-color;
+  padding: 1rem;
+  text-align: center;
+  .social-media-icons {
+    margin-bottom: 1rem;
+    a {
+      list-style: none;
+      text-decoration: none;
+    }
+  }
 }
-.social-media-icons {
-	margin-bottom: 1rem;
-	a {
-		list-style: none;
-		text-decoration: none;
-	}
-}
+
 .social-media-icons-footer {
-	height: 3rem;
-	width: 3rem;
-	margin-right: 1rem;
-	&:hover {
-		filter: invert(31%) sepia(0%) saturate(2612%) hue-rotate(165deg) brightness(95%) contrast(72%);
-	}
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1rem;
+  &:hover {
+    filter: invert(31%) sepia(0%) saturate(2612%) hue-rotate(165deg)
+      brightness(95%) contrast(72%);
+  }
 }
 .footer-links {
-	list-style: none;
-	text-decoration: none;
-	color: rgb(212, 212, 212);
-	margin: 1rem;
-	margin-top: -0.3rem;
-	// font-size: 1.3rem;
-	&:hover {
-		color: rgb(92, 91, 91);
-	}
-	// @include for-phone-only {
-	// 	// display: flex;
-	// 	background-color: red;
-	// }
-
-	@media only screen and (max-width: 800px) {
-			display: flex;
-			flex-direction: column;
-	}
-	// a {
-	// 	color: white;
-	// 	text-decoration: none;
-	// 	font-size: 3vw;
-	// }
+  list-style: none;
+  text-decoration: none;
+  color: color.$light-background-color;
+  margin: 1rem;
+  margin-top: -0.3rem;
+  &:hover {
+    color: color.$product-btn-hover-btn;
+  }
+  @include m.for-tablet-landscape-up {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-links.active {
+    font-weight: bold;
+  }
 }
-
-.footer-links.active {
-	font-weight: bold;
-	// color: rgb(92, 91, 91);
-}
-
-// @mixin for-phone-only {
-//   @media (max-width: 800px) {
-// 	 @content; 
-// 	}
-// }
-
-// @mixin responsive-footer {
-// 		@media only screen and (max-width: 800px) {
-// 			@content;
-// 	}
-// }

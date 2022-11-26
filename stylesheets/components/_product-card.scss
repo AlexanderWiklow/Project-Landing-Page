@@ -1,54 +1,56 @@
-@use '../abstracts/colors' as color;
+@use "../abstracts/colors" as color;
+
+@include animation-mixin(animate-pop, 0, 100%);
 
 .card {
-	background-color: color.$card-background-color;
-	color: color.$primary-font-color;
-	margin-top: 2rem;
-	width: 15rem;
-	box-shadow: 0 4px 8px 0 color.$dropdown-box-shadow;
-	transition: 0.3s;
-	border-radius: 15px;
-	transition: all 0.3s ease-in-out;
-	gap: 1rem;
-	&:hover {
-		transform: scale(1.05);
-		box-shadow: 0 8px 16px 0 color.$dropdown-box-shadow;
-	}
-	img {
-		border-radius: 15px 15px 0px 0px;
-	}
+  background-color: color.$card-background-color;
+  color: color.$primary-font-color;
+  margin-top: 2rem;
+  width: 15rem;
+  box-shadow: 0 4px 8px 0 color.$dropdown-box-shadow;
+  border-radius: 15px;
+
+  animation: animate-pop 0.2s ease-out;
+  gap: 1rem;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 color.$dropdown-box-shadow;
+  }
+  img {
+    border-radius: 15px 15px 0px 0px;
+  }
 }
 img {
-	-o-object-fit: cover;
-	object-fit: cover;
-	height: 15rem;
-	width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 15rem;
+  width: 100%;
 }
 .card-inner-container {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0.5rem 0rem 0.5rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0rem 0.5rem 0rem;
 }
 .product-card-text {
-	padding: 1rem;
+  padding: 1rem;
 }
 .product-title {
-	padding-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .bottom-links {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
 }
 .product-detail-image {
-	&:hover {
-		transform: scale(1.2);
-	}
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 #more-info-btn {
-	background-color: $light-background-color;
-	padding: 0.5rem;
-	border-radius: 10px;
+  background-color: $light-background-color;
+  padding: 0.5rem;
+  border-radius: 10px;
 }

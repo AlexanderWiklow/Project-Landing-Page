@@ -1,86 +1,85 @@
-@use '../abstracts/colors' as color;
-
+@use "../abstracts/colors" as color;
 
 /* === DROPDOWN MENU ==== */
 
 .dropbtn {
-	color:color.$primary-font-color;
-	// opacity: 50%;
-	padding: 5px;
-	font-size: 1rem;
-	border: none;
-	cursor: pointer;
-	border-radius: 5px;
-	background-color: rgba(255, 255, 255, 0.182);
-	// padding-right: 0.5rem;
-	&:hover {
-		background-color: color.$primary-font-color;
-		color: color.$dark-font-color;
-	}
-	&:focus {
-		background-color: color.$primary-font-color;
-		color: color.$dark-font-color;
-	}
+  color: color.$primary-font-color;
+  // opacity: 50%;
+  padding: 5px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: color.$dropbtn-background;
+  // padding-right: 0.5rem;
+  &:hover {
+    background-color: color.$primary-font-color;
+    color: color.$dark-font-color;
+  }
+  &:focus {
+    background-color: color.$primary-font-color;
+    color: color.$dark-font-color;
+  }
 }
 .product-link-btn {
-	padding: 5px;
-	font-size: 1rem;
-	// opacity: 50%;
-	background-color: rgba(255, 255, 255, 0.182);
-	border: none;
-	cursor: pointer;
-	border-radius: 5px;
-	margin-right: 0.5rem;
-	a {
-		text-decoration: none;
-		list-style: none;
-		color:color.$primary-font-color;
-	}
-	&:hover {
-		background-color: color.$light-background-color;
-	}
-	&:focus {
-		background-color: color.$light-background-color;
-	}
+  padding: 5px;
+  font-size: 1rem;
+  // opacity: 50%;
+  background-color: rgba(255, 255, 255, 0.182);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: color.$primary-font-color;
+  }
+  &:hover {
+    background-color: color.$light-background-color;
+  }
+  &:focus {
+    background-color: color.$light-background-color;
+  }
 }
 .dropdown {
-	position: relative;
-	display: inline-block;
-	margin: 0;
-	a {
-		&:hover {
-			background-color:color.$primary-font-color;
-		}
-	}
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  a {
+    &:hover {
+      background-color: color.$primary-font-color;
+    }
+  }
 }
 .dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: color.$dropdown-box-background;
-	color: color.$primary-font-color;
-	padding: 1rem;
-	border-radius: 15px;
-	text-align: left;
-	font-size: 1rem;
-	min-width: 20rem;
-	padding: 1rem;
-	border-radius: 15px;
-	overflow: auto;
-	box-shadow: 0px 8px 16px 0px color.$dropdown-box-background;
-	z-index: 1;
-	border: 10px solid color.$dark-font-color;
+  display: none;
+  position: absolute;
+  background-color: color.$dropdown-box-background;
+  color: color.$primary-font-color;
+  padding: 1rem;
+  border-radius: 15px;
+  text-align: left;
+  font-size: 1rem;
+  min-width: 20rem;
+  padding: 1rem;
+  border-radius: 15px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px color.$dropdown-box-background;
+  z-index: 1;
+  border: 10px solid color.$dark-font-color;
 }
 .dropdown-text {
-	display: flex;
-	align-items: flex-start;
-	justify-content: flex-start;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .show {
-	display: block;
+  display: block;
 }
 #myDIV {
-	display: none;
-	width: 100%;
-	padding: 1rem;
-	margin-top: 20px;
+  display: none;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 20px;
 }

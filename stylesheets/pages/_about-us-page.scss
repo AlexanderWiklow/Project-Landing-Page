@@ -1,129 +1,126 @@
-@use '../abstracts/colors' as color;
-/* TEST */
+@use "../abstracts/colors" as color;
+@use "../abstracts/mixins" as m;
+
 #about-us-section {
-	height: -webkit-fit-content;
-	height: -moz-fit-content;
-	height: fit-content;
-	height: -webkit-fit-content;
-	height: -moz-fit-content;
-	height: fit-content;
-	display: flex;
-	flex-direction: column;
-	.section-inner.about-us {
-		display: flex;
-		flex-direction: row;
-	}
-	.title-text-1 {
-		margin: auto;
-		padding: 1rem;
-		font-size: 2rem;
-	}
-	.company-info {
-		max-width: 25rem;
-		margin-bottom: 1rem;
-		border-radius: 15px;
-		background-color: color.$card-background-color;
-		color: color.$primary-font-color;
-		box-shadow: 0 0 20px color.$dropdown-box-shadow;
-		padding: 1rem;
-	}
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  .section-inner.about-us {
+    display: flex;
+    flex-direction: row;
+  }
+  .title-text-1 {
+    margin: auto;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .company-info {
+    max-width: 25rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    background-color: color.$card-background-color;
+    color: color.$primary-font-color;
+    box-shadow: 0 0 20px color.$dropdown-box-shadow;
+    padding: 1rem;
+  }
 }
 
 .test-first-card {
-	width: 22rem;
-	display: flex;
-	align-items: center;
-	background-color: color.$card-background-color;
-	color: color.$primary-font-color;
-	border-radius: 15px;
-	box-shadow: 0 0 20px color.$dropdown-box-shadow;
-	.test-img-wrapper {
-		width: 50%;
-		.test-profile-pic {
-			height: 10rem;
-			width: 10rem;
-			border-radius: 50%;
-			padding: 1rem;
-		}	
-	}
-	.test-text {
-		width: 100%;
-	}
-	.test-profile-pic {
-		height: 10rem;
-		width: 10rem;
-		border-radius: 50%;
-		padding: 1rem;
-	}
+  // width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: color.$card-background-color;
+  color: color.$primary-font-color;
+  border-radius: 15px;
+  box-shadow: 0 0 20px color.$dropdown-box-shadow;
+  .test-img-wrapper {
+    width: 50%;
+    .test-profile-pic {
+      height: 10rem;
+      width: 10rem;
+      border-radius: 50%;
+      padding: 1rem;
+    }
+  }
+  .test-text {
+    width: 100%;
+  }
+  .test-profile-pic {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    padding: 1rem;
+  }
 }
 
 .section-test {
-	display: flex;
-	margin: auto;
-	.test-card {
-		margin: 0rem 1rem 1rem 0rem;
-	}
+  display: flex;
+  margin: auto;
+  @include m.for-desktop-down {
+    flex-direction: column;
+  }
+  .test-card {
+    margin: 0rem 1rem 1rem 0rem;
+    @include m.for-desktop-down {
+      margin: 0rem 0rem 1rem 0rem;
+    }
+  }
 }
 #test-contact-form {
-	width: 20rem;
-	padding: 3rem;
-	input {
-		width: 100%;
-	}
-	select {
-		width: 100%;
-	}
-	textarea {
-		width: 100%;
-	}
+  width: 100%;
+  padding: 3rem;
+  input {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+  }
 
-	#form-submit-btn-contact {
-		background-color: color.$primary-font-color;
-		border: 1px solid color.$dark-font-color;
-		padding: 0.5;
-	}
+  #form-submit-btn-contact {
+    background-color: color.$primary-font-color;
+    border: 1px solid color.$dark-font-color;
+    padding: 0.5;
+  }
 }
 
 #test-fieldset {
-	border-radius: 15px;
-	border: none;
-	background-color: color.$card-background-color;
-	color: color.$primary-font-color;
-	box-shadow: 0 0 20px color.$dropdown-box-shadow;
-	#thank_you {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		font-size: 1rem;
-		background-color: color.$card-background-color;
-		color: color.$primary-font-color;
-		padding: 1rem;
-		border-radius: 15px;
-	}
+  border-radius: 15px;
+  border: none;
+  background-color: color.$card-background-color;
+  color: color.$primary-font-color;
+  box-shadow: 0 0 20px color.$dropdown-box-shadow;
+  #thank_you {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: color.$card-background-color;
+    color: color.$primary-font-color;
+    padding: 1rem;
+    border-radius: 15px;
+  }
 }
 
 .contact-icons {
-	display: flex;
-	align-items: center;
-	justify-content: left;
-	a {
-		text-decoration: none;
-		color: color.$primary-font-color;
-	}
-	.contact-card-icon {
-		height: 1.5rem;
-		width: 1.5rem;
-		margin-right: 0.5rem;
-		margin-left: 0;
-		filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
-	}
-}
-
-@media only screen and (max-width:1100px) {
-	.section-test {
-		flex-direction: column;
-	}
-	.test-card {
-		margin: 0rem 0rem 1rem 0rem;
-	}
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  a {
+    text-decoration: none;
+    color: color.$primary-font-color;
+  }
+  .contact-card-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+      brightness(102%) contrast(102%);
+  }
 }

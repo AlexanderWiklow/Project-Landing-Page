@@ -1,54 +1,21 @@
 // Base
 @import "base/base";
-@import "base/reset";
 @import "base/typography";
-// @import "base/normalize";
 
 // Layout
 @import "layout/navbar";
 @import "layout/footer";
-// @import "layout/sidebar";
-@import "layout/header";
 
 // Abstract
-@import "abstracts/variables";
 @import "abstracts/colors";
 @import "abstracts/mixins";
 
 // Components
-// @import "components/alert";
-// @import "components/button";
-// @import "components/badge";
-// @import "components/label";
-// @import "components/modal";
-// @import "components/course-card";
-// @import "components/infobox";
-// @import "components/success-popup";
-@import "components/profile-card";
 @import "components/product-card";
 @import "components/contact-form";
 @import "components/dropdown-index-page";
 
 // Pages
-// @import "docs/product";
-// @import "docs/product-single";
-// @import "docs/blog";
-// @import "docs/blog-single";
-// @import "docs/invoice";
-// @import "docs/login";
-// @import "docs/signup";
 @import "pages/add-product-page";
 @import "pages/about-us-page";
 @import "pages/product-detail-page";
-
-// Themes
-// @import "themes/dark-theme";
-// @import "themes/light-theme";
-// @import "themes/material-theme";
-// @import "themes/flat-theme";
-
-// Vendors
-// @import "vendors/bootstrap";
-// @import "vendors/owl-carousel";
-// @import "vendors/jqueryui";
-
