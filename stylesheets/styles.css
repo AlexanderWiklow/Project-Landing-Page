@@ -19,7 +19,6 @@ body {
   font-family: "Roboto", sans-serif;
   background: url(../assets/images/backgrounds/mountain4.jpg) no-repeat center center fixed;
   background-size: cover;
-  overflow: auto;
 }
 
 main {
@@ -264,12 +263,6 @@ img {
 
 .product-detail-image:hover {
   transform: scale(1.2);
-}
-
-#more-info-btn {
-  background-color: #e7e4e4;
-  padding: 0.5rem;
-  border-radius: 10px;
 }
 
 #contact-form {
