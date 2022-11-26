@@ -19,6 +19,7 @@ body {
   font-family: "Roboto", sans-serif;
   background: url(../assets/images/backgrounds/mountain4.jpg) no-repeat center center fixed;
   background-size: cover;
+  overflow: auto;
 }
 
 main {
@@ -346,7 +347,7 @@ img {
   min-width: 20rem;
   padding: 1rem;
   border-radius: 15px;
-  overflow: auto;
+  overflow: scroll;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.839);
   z-index: 1;
   border: 10px solid black;
